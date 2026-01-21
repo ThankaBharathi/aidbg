@@ -11,7 +11,6 @@ venv/
 ENV/
 
 # Poetry
-poetry.lock
 dist/
 
 # IDE
