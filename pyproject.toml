@@ -1,0 +1,16 @@
+[project]
+name = "aidbg"
+version = "0.1.0"
+description = "AI-powered CLI debugger"
+authors = [
+    {name = "Thanka Bharathi",email = "thankabharathi0@gmail.com"}
+]
+license = {text = "MIT"}
+requires-python = "^3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
