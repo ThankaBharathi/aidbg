@@ -12,7 +12,7 @@ console = Console()
 
 
 @app.callback()
-def callback():
+def callback() -> None:
     """
     Aidbg - Your AI debugging assistant.
     """
@@ -20,7 +20,7 @@ def callback():
 
 
 @app.command()
-def version():
+def version() -> None:
     """Show version information."""
     from src import __version__
 
